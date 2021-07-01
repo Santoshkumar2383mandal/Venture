@@ -68,7 +68,7 @@ $query="INSERT INTO `details` (`Email`, `password`) VALUES ('$email', '$password
 
 ?>
 
-<form action="getpost.php" method="POST">
+<form action="index.php" method="POST">
   <div class="mb-3">
     <label for="Email1" class="form-label">Email address</label>
     <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
